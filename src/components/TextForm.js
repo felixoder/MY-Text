@@ -92,22 +92,22 @@ import React, { useState } from 'react';
       </div>
    
 
-      <button className={`btn btn-${props.mode} mx-3 `}   onClick={handleUpclick}>
+      <button className={`btn btn-${props.mode} mx-3 my-2`}   onClick={handleUpclick}>
         Convert to UpperCase
       </button>
-      <button className={`btn btn-${props.mode} mx-3 `}  onClick={handleLwclick}>
+      <button className={`btn btn-${props.mode} mx-3 my-2`}  onClick={handleLwclick}>
         Convert to LowerCase
       </button>
-      <button className={`btn btn-${props.mode} mx-3 `}   onClick={handleRevclick}>
+      <button className={`btn btn-${props.mode} mx-3 my-2`}   onClick={handleRevclick}>
         Make the Text Reverse
       </button>
-      <button className={`btn btn-${props.mode} mx-3 `} onClick={handlePuncvclick}>
+      <button className={`btn btn-${props.mode} mx-3 my-2`} onClick={handlePuncvclick}>
         Remove the Punctuations
       </button>
-      <button className={`btn btn-${props.mode} mx-3 `} onClick={handleWhiteRemvvclick}>
+      <button className={`btn btn-${props.mode} mx-3 my-2`} onClick={handleWhiteRemvvclick}>
         Remove the WhiteSpace
       </button>
-      <button className={`btn btn-${props.mode} mx-3 `}  onClick={handleClearvclick}>
+      <button className={`btn btn-${props.mode} mx-3 my-2`}  onClick={handleClearvclick}>
         Clear the Text
       </button>
       <button className={`btn btn-${props.mode} mx-3 my-2`}   onClick={handleBinaryToDecimalclick}>
